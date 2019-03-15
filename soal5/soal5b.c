@@ -3,6 +3,6 @@
 #include <unistd.h>
 
 int main(){
-    char *argv[3] = {"pkill", "soal5", NULL};
+    char *argv[3] = {"pkill", "soal5a", NULL};
     execv("/usr/bin/pkill", argv);
 }
