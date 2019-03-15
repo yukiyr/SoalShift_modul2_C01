@@ -484,7 +484,7 @@ gcc -o modul2_4 modul2_4.c
 
 - Lalu jalankan ```./modul2_4```
 
-- Maka  
+- Maka program akan berjalan seperti semestinya 
 
 **Kendala Yang Dialami**
 
