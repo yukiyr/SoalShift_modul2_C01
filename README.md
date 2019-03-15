@@ -223,8 +223,8 @@ int main() {
   
     if (pid == 0) { 
   
-        char *argv[4] = {"chmod", "777", "hatiku/elen.ku", NULL};
-        execv("/bin/chmod", argv);
+        char * argv [4] = {"chmod", "0777", "hatiku / elen.ku", NULL};
+        execv ("/ bin / chmod", argv);
 
     } 
   
