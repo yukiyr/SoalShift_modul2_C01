@@ -165,6 +165,10 @@ gcc -o modul2_1_benar modul2_1_benar.c
 
 **Screenshot**
 
+![Screenshot1](https://1.bp.blogspot.com/-2U2bjeJE4JE/XJSMIlwVdTI/AAAAAAAAAm8/mw_oPQwcrLo-zdrx48b5QKuvSmDLhKj9QCLcBGAs/s1600/1a.png)
+
+![Screenshot1](https://2.bp.blogspot.com/-imFq7tEzbvo/XJSMIo83u3I/AAAAAAAAAm0/JsUS80tLrq8SCeXfxTE6zN6FvmViSRDwgCLcBGAs/s1600/1b.png)
+
 2. Pada suatu hari Kusuma dicampakkan oleh Elen karena Elen dimenangkan oleh orang lain. Semua kenangan tentang Elen berada pada file bernama “elen.ku” pada direktori “hatiku”. Karena sedih berkepanjangan, tugas kalian sebagai teman Kusuma adalah membantunya untuk menghapus semua kenangan tentang Elen dengan membuat program C yang bisa mendeteksi owner dan group dan menghapus file “elen.ku” setiap 3 detik dengan syarat ketika owner dan grupnya menjadi “www-data”. Ternyata kamu memiliki kendala karena permission pada file “elen.ku”. Jadi, ubahlah permissionnya menjadi 777. Setelah kenangan tentang Elen terhapus, maka Kusuma bisa move on.
 Catatan: Tidak boleh menggunakan crontab
 
@@ -284,6 +288,12 @@ gcc -o modul2_2 modul2_2.c
 
 **Screenshot**
 
+![Screenshot1](https://3.bp.blogspot.com/-bl05tszTmew/XJSMIg_B8iI/AAAAAAAAAm4/39gV4FBsUcIeJFB_ivgLtlePhrZ93-U_gCLcBGAs/s1600/2a.png)
+
+![Screenshot1](https://4.bp.blogspot.com/-Ee83V6cmGDo/XJSMJffviyI/AAAAAAAAAnA/EGTJyTTlkPk2BT9CQyJUWPcq0JoxbL5xgCLcBGAs/s1600/2b.png)
+
+![Screenshot1](https://4.bp.blogspot.com/-mYMorW66l8U/XJSMJpz-ZMI/AAAAAAAAAnE/7Ir-8gjX3EEszBMzPlplJuUsOXtOiFgQwCLcBGAs/s1600/2c.png)
+
 3. Diberikan file campur2.zip. Di dalam file tersebut terdapat folder “campur2”. 
 
 Buatlah program C yang dapat :
@@ -394,6 +404,10 @@ gcc -o modul2_3 modul2_3.c
 
 **Screenshot**
 
+![Screenshot1](https://4.bp.blogspot.com/-aRLcxJ2RkJI/XJSMJnxY4rI/AAAAAAAAAnI/Vf7xaluLdzgiXfE_XeRqO9eF30_zs3c2QCLcBGAs/s1600/3a.png)
+
+![Screenshot1](https://4.bp.blogspot.com/-Hz5w0GYi3SA/XJSMJ2jYiaI/AAAAAAAAAnM/yYVMwbt2XLc0pon09-7095mMLCdbciXHgCLcBGAs/s1600/3b.png)
+
 4.  Dalam direktori /home/[user]/Documents/makanan terdapat file makan_enak.txt yang berisikan daftar makanan terkenal di Surabaya. Elen sedang melakukan diet dan seringkali tergiur untuk membaca isi makan_enak.txt karena ngidam makanan enak. Sebagai teman yang baik, Anda membantu Elen dengan membuat program C yang berjalan setiap 5 detik untuk memeriksa apakah file makan_enak.txt pernah dibuka setidaknya 30 detik yang lalu (rentang 0 - 30 detik).
 Jika file itu pernah dibuka, program Anda akan membuat 1 file makan_sehat#.txt di direktori /home/[user]/Documents/makanan dengan '#' berisi bilangan bulat dari 1 sampai tak hingga untuk mengingatkan Elen agar berdiet.
 
@@ -492,6 +506,10 @@ gcc -o modul2_4 modul2_4.c
 Program tidak berjalan
 
 **Screenshot**
+
+![Screenshot1](https://4.bp.blogspot.com/-FXWsFJyuYLo/XJSMKC1y8gI/AAAAAAAAAnQ/BNKptEcZg9AnXGVo4oJAu8ZetpDGHks-wCLcBGAs/s1600/4a.png)
+
+![Screenshot1](https://3.bp.blogspot.com/-suriXQWAp_A/XJSMK4bn3MI/AAAAAAAAAnU/jlA6ApXM290dtAx_zwIrYsrASysIROQIgCLcBGAs/s1600/4b.png)
 
 5. Kerjakan poin a dan b di bawah:
     a. Buatlah program c untuk mencatat log setiap menit dari file log pada syslog ke /home/[user]/log/[dd:MM:yyyy-hh:mm]/log#.log
@@ -605,3 +623,11 @@ gcc -o modul2_5 modul2_5.c
 -
 
 **Screenshot**
+
+![Screenshot1](https://3.bp.blogspot.com/-Yk8AICgLMBk/XJSMLOjiXUI/AAAAAAAAAnc/JQYB1pfXro8TTjXOSxid6cEb83tfCgWYwCLcBGAs/s1600/5a.png)
+
+![Screenshot1](https://2.bp.blogspot.com/-4SfjtLrdmiw/XJSMLBgLFOI/AAAAAAAAAnY/kasVbH3r9JcL65FpapdwkpkIJCC52eArwCLcBGAs/s1600/5b.png)
+
+![Screenshot1](https://1.bp.blogspot.com/-QftZvNqT7WQ/XJSMLqrP9II/AAAAAAAAAng/iOLFtKoUD5kGUjL0Op5xsmuCgUwpxCs5gCLcBGAs/s1600/5c.png)
+
+![Screenshot1](https://1.bp.blogspot.com/-4AanTWBjx6k/XJSML9Ji4QI/AAAAAAAAAnk/akyV7HI-tlIjbeLgFR1Yp6wRxLXHUzJJQCLcBGAs/s1600/5d.png)
