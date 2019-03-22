@@ -46,8 +46,8 @@ int main() {
   
     if (pid == 0) { 
   
-        char  * argv [ 4 ] = { "chmod" , "0777" , "hatiku / elen.ku" , NULL };
-        execv ( "/ bin / chmod" , argv );
+        char  *argv [ 4 ] = { "chmod" , "0777" , "hatiku/elen.ku" , NULL };
+        execv ( "/bin/chmod" , argv );
 
     } 
   
@@ -76,8 +76,8 @@ int main() {
                                 grp = getgrgid(file.st_uid);
                                 pwd = getpwuid(file.st_gid);
 
-                                if (strcmp(grp->gr_name, "www-data") != 0 && strcmp(pwd->pw_name, "www-data") != 0) {
-                                        char *argv[3] = {"rm", "/home/test/hatiku/elenku", NULL};
+                                if (strcmp(grp->gr_name, "www-data") == 0 && strcmp(pwd->pw_name, "www-data") == 0) {
+                                        char *argv[3] = {"rm", "/home/test/hatiku/elen.ku", NULL};
                                         execv("/bin/rm", argv);
                                 }
                                 }
